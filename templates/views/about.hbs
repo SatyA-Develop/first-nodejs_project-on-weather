@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{>header}}
+  <body>
+    {{>navbar}}
+
+    <!-- main header -->
+
+    <div class="container-fluid main_header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row d-flex justify-content-between">
+            <div class="col-md-6 col-12 main_header_right align-items-center">
+              <figure>
+                <img
+                  src="img/about.png"
+                  alt="satyabrata"
+                  class="img-fluid"
+                  title="Satyabrata Dash"
+                />
+              </figure>
+            </div>
+            <div class="col-md-6 col-12 main_header_left">
+              <p>Welcome to Satyabrata World</p>
+              <h1>
+                I Am A <span class="text_clr">React Developer</span> ,Node Js Developer
+              </h1>
+              <a href="https://satyabratadash-portfolio.netlify.app/" target="_blank"><button>About me</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    {{> footer}}
+  </body>
+</html>
